@@ -32,4 +32,5 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: OpenBimRL-CreatorTool/webapp/dist # The folder the action should deploy.
           repository-name: FlorianB-DE/OpenBIMRL-IDE
+          token: ${{ secrets.GITHUB_TOKEN }}
 
